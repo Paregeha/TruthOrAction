@@ -2,7 +2,7 @@ package com.example.truthoraction.Screens
 
 import androidx.compose.animation.core.animateDpAsState
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -15,10 +15,8 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
-import androidx.compose.material3.Checkbox
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.RadioButton
@@ -31,7 +29,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.paint
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
@@ -45,23 +43,31 @@ fun SettingPlayerDialog(
     dataIcons: List<Int>
 ) {
     var name by remember { mutableStateOf("") }
-    var selectedGender by remember { mutableStateOf("Male") } // За замовчуванням обрано Male
+    var selectedGender by remember { mutableStateOf("") } // За замовчуванням обрано Male
     var selectedIcon by remember { mutableStateOf<Int?>(null) } // Зберігаємо ID вибраної іконки
 
 
-    val dataIcons = remember {
+    val dataIconsFemale = remember {
         mutableStateListOf(
             R.drawable.beautygirl1_1,
             R.drawable.beautygirl1_2,
             R.drawable.beautygirl1_3
         )
     }
+    val dataIconsMale = remember {
+        mutableStateListOf(
+            R.drawable.beautygirl1_1,
+        )
+    }
 
     AlertDialog(
+        modifier = Modifier
+            .paint(painter = painterResource(id = R.drawable.theme_dialog)),
+        containerColor = Color.Transparent,
         onDismissRequest = onDismiss,
-        title = { Text(text = "Введіть дані") },
         text = {
-            Column {
+            Column(
+            ) {
                 OutlinedTextField(
                     value = name,
                     onValueChange = { name = it },
@@ -87,12 +93,22 @@ fun SettingPlayerDialog(
                 LazyRow(
                     modifier = Modifier.fillMaxWidth()
                 ) {
-                    items(dataIcons) { iconId ->
-                        IconSelectable(
-                            iconId = iconId,
-                            isSelected = selectedIcon == iconId,
-                            onClick = { selectedIcon = iconId }
-                        )
+                    if (selectedGender == "Female") {
+                        items(dataIconsFemale) { iconId ->
+                            IconSelectable(
+                                iconId = iconId,
+                                isSelected = selectedIcon == iconId,
+                                onClick = { selectedIcon = iconId }
+                            )
+                        }
+                    } else if(selectedGender == "Male"){
+                        items(dataIconsMale) { iconId ->
+                            IconSelectable(
+                                iconId = iconId,
+                                isSelected = selectedIcon == iconId,
+                                onClick = { selectedIcon = iconId }
+                            )
+                        }
                     }
                 }
             }
@@ -143,7 +159,7 @@ fun IconSelectable(
     Box(
         modifier = Modifier
             .padding(4.dp)
-            .size(iconSize) // Використовуємо анімований розмір
+            .size(72.dp) // Використовуємо анімований розмір
             .clickable { onClick() },
         contentAlignment = Alignment.Center
     ) {
