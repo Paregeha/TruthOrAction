@@ -21,7 +21,6 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             val navController = rememberNavController()
-            MainMenu(navController = navController)
 
             NavHost(navController = navController, startDestination = "MainMenu") {
                 composable("MainMenu") { MainMenu(navController) }

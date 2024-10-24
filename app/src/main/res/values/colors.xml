@@ -3,6 +3,7 @@
     <color name="color3">#541033</color>
     <color name="color4">#731536</color>
     <color name="color_text2">#F09DAB</color>
+    <color name="color_text2dark">#BF845B62</color>
     <color name="color_Text">#EBEBEB</color>
     <color name="button">#3D0D35</color>
 </resources>
