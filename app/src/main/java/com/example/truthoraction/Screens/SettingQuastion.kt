@@ -10,16 +10,24 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.systemBarsPadding
 import androidx.compose.material3.IconButton
+import androidx.compose.material3.Tab
+import androidx.compose.material3.TabRow
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.paint
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -29,14 +37,58 @@ import com.example.truthoraction.R
 
 @Composable
 fun SettingQuestion(navController: NavHostController) {
+    val tabs = listOf("Levels", "Custom")
+    var selectedTabIndex by remember { mutableStateOf("Levels") }
+
     Box(
         modifier = Modifier
             .fillMaxSize()
             .paint(painter = painterResource(id = R.drawable.background_theme))
-    ){
+    ) {
         Column(
-            modifier = Modifier.systemBarsPadding()
+            modifier = Modifier
+                .systemBarsPadding()
         ) {
+
+            TabRow(
+                selectedTabIndex = if (selectedTabIndex == "Levels") 0 else 1,
+                containerColor = Color.Transparent,
+                contentColor = colorResource(id = R.color.color_Text),
+            ) {
+                tabs.forEachIndexed { index, tab ->
+                    Tab(
+                        selected = selectedTabIndex == tab, // Змінюємо на tab
+                        onClick = {
+                            selectedTabIndex = tab // Встановлюємо вибрану вкладку
+                        },
+                        text = {
+                            Text(
+                                text = tab,
+                                fontWeight = FontWeight.Bold,
+                                style = TextStyle(
+                                    fontSize = 18.sp,
+                                    fontFamily = FontFamily(Font(R.font.ibarra_real_nova_variable_font_wght)),
+                                )
+                            )
+                        }
+                    )
+                }
+            }
+
+            // Додайте контент для вкладок
+            when (selectedTabIndex) {
+                "Levels" -> {
+                    Levels()
+                }
+                "Custom" -> {
+                    // Вміст для вкладки Custom
+                    Text("Це вміст для Custom")
+                }
+            }
+
+
+
+
             Row(
                 modifier = Modifier
                     .fillMaxSize()
@@ -46,7 +98,7 @@ fun SettingQuestion(navController: NavHostController) {
             ) {
                 IconButton(
                     onClick = { navController.navigate("SettingPlayer") },
-                    modifier = Modifier.size(150.dp,100.dp)
+                    modifier = Modifier.size(150.dp, 100.dp)
                 ) {
                     Image(
                         painter = painterResource(id = R.drawable.cancel_confirm),
@@ -87,6 +139,6 @@ fun SettingQuestion(navController: NavHostController) {
 
 @Preview(showBackground = true)
 @Composable
-fun PreviewSettingQuestion(){
+fun PreviewSettingQuestion() {
     SettingQuestion(rememberNavController())
 }
