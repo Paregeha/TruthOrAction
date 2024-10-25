@@ -1,3 +1,5 @@
+@file:Suppress("IMPLICIT_CAST_TO_ANY")
+
 package com.example.truthoraction.Screens
 
 import androidx.compose.foundation.Image
@@ -12,6 +14,8 @@ import androidx.compose.foundation.layout.systemBarsPadding
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.Tab
 import androidx.compose.material3.TabRow
+import androidx.compose.material3.TabRowDefaults
+import androidx.compose.material3.TabRowDefaults.tabIndicatorOffset
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -38,7 +42,7 @@ import com.example.truthoraction.R
 @Composable
 fun SettingQuestion(navController: NavHostController) {
     val tabs = listOf("Levels", "Custom")
-    var selectedTabIndex by remember { mutableStateOf("Levels") }
+    var selectedTabIndex by remember { mutableStateOf(0) }
 
     Box(
         modifier = Modifier
@@ -49,17 +53,23 @@ fun SettingQuestion(navController: NavHostController) {
             modifier = Modifier
                 .systemBarsPadding()
         ) {
-
             TabRow(
-                selectedTabIndex = if (selectedTabIndex == "Levels") 0 else 1,
+                selectedTabIndex = selectedTabIndex,
                 containerColor = Color.Transparent,
                 contentColor = colorResource(id = R.color.color_Text),
+                indicator = {tabPositions ->
+                    TabRowDefaults.Indicator(
+                        Modifier.tabIndicatorOffset(tabPositions[selectedTabIndex]),
+                        color = colorResource(id = R.color.color_text2), // Задаємо колір індикатора
+                        height = 4.dp // Задаємо висоту індикатора
+                    )
+                }
             ) {
                 tabs.forEachIndexed { index, tab ->
                     Tab(
-                        selected = selectedTabIndex == tab, // Змінюємо на tab
+                        selected = selectedTabIndex == index, // Змінюємо на tab
                         onClick = {
-                            selectedTabIndex = tab // Встановлюємо вибрану вкладку
+                            selectedTabIndex = index // Встановлюємо вибрану вкладку
                         },
                         text = {
                             Text(
@@ -77,10 +87,10 @@ fun SettingQuestion(navController: NavHostController) {
 
             // Додайте контент для вкладок
             when (selectedTabIndex) {
-                "Levels" -> {
+                0 -> {
                     Levels()
                 }
-                "Custom" -> {
+                1 -> {
                     // Вміст для вкладки Custom
                     Text("Це вміст для Custom")
                 }
