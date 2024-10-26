@@ -8,7 +8,6 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Card
@@ -19,6 +18,7 @@ import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
@@ -35,8 +35,21 @@ fun Levels() {
     val dataList = remember {
         mutableStateListOf("Beginner", "Advanced", "Expert", "Master")
     }
+
+    val configuration = LocalConfiguration.current
+    val screenWidth = configuration.screenWidthDp
+    val screenHeight = configuration.screenHeightDp
+
+    // Визначення висоти на основі ширини екрана
+    val height = when {
+        screenHeight > 600 -> 600.dp // Для великих екранів
+        screenWidth > 400 -> 450.dp // Для середніх екранів
+        else -> 300.dp // Для маленьких екранів
+    }
     Box(modifier = Modifier.fillMaxWidth()) {
-        LazyColumn {
+        LazyColumn(
+            modifier = Modifier.height(height)
+        ) {
             items(dataList.size) {
                 Card(
                     modifier = Modifier

@@ -2,12 +2,14 @@
 
 package com.example.truthoraction.Screens
 
+import android.annotation.SuppressLint
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.systemBarsPadding
@@ -26,6 +28,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.paint
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
@@ -39,6 +42,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
 import com.example.truthoraction.R
 
+@SuppressLint("AutoboxingStateCreation")
 @Composable
 fun SettingQuestion(navController: NavHostController) {
     val tabs = listOf("Levels", "Custom")
@@ -47,8 +51,13 @@ fun SettingQuestion(navController: NavHostController) {
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .paint(painter = painterResource(id = R.drawable.background_theme))
     ) {
+        Image(
+            painter = painterResource(id = R.drawable.background_theme),
+            contentDescription = null, // Вкажіть опис для доступності
+            contentScale = ContentScale.Crop, // Адаптивне масштабування зображення
+            modifier = Modifier.fillMaxSize()
+        )
         Column(
             modifier = Modifier
                 .systemBarsPadding()
@@ -96,9 +105,6 @@ fun SettingQuestion(navController: NavHostController) {
                 }
             }
 
-
-
-
             Row(
                 modifier = Modifier
                     .fillMaxSize()
@@ -125,7 +131,7 @@ fun SettingQuestion(navController: NavHostController) {
                     )
                 }
                 IconButton(
-                    onClick = { /*TODO*/ },
+                    onClick = { navController.navigate("SettingRounds") },
                     modifier = Modifier.size(150.dp, 100.dp)
                 ) {
                     Image(

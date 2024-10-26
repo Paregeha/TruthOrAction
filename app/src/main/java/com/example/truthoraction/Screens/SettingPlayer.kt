@@ -1,6 +1,7 @@
 package com.example.truthoraction.Screens
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -22,6 +23,7 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateOf
@@ -31,7 +33,9 @@ import androidx.compose.ui.AbsoluteAlignment
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.paint
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
@@ -43,13 +47,16 @@ import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
 import com.example.truthoraction.Data.PlayersData
+import com.example.truthoraction.DataPlayers.PlayerViewModel
+import com.example.truthoraction.DataPlayers.Players
 import com.example.truthoraction.R
 
 @Composable
-fun SettingPlayer(navController: NavHostController) {
+fun SettingPlayer(navController: NavHostController, playerViewModel: PlayerViewModel) {
     val dataList = remember {
         mutableStateListOf<PlayersData>()
     }
+    val players by playerViewModel.players.collectAsState()
     var showDialog by remember {
         mutableStateOf(false)
     }
@@ -57,8 +64,13 @@ fun SettingPlayer(navController: NavHostController) {
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .paint(painter = painterResource(id = R.drawable.background_theme))
     ) {
+        Image(
+            painter = painterResource(id = R.drawable.background_theme),
+            contentDescription = null, // Вкажіть опис для доступності
+            contentScale = ContentScale.Crop, // Адаптивне масштабування зображення
+            modifier = Modifier.fillMaxSize()
+        )
         Column(
             modifier = Modifier.systemBarsPadding()
         ) {
@@ -66,7 +78,7 @@ fun SettingPlayer(navController: NavHostController) {
                 SettingPlayerDialog(
                     onDismiss = { showDialog = false },
                     onConfirm = { name, gender, icon ->
-                        dataList.add(PlayersData(name, gender, icon))
+                        playerViewModel.addPlayer(Players(id = 0,name, gender, icon))
                         showDialog = false
                     },
                     dataIcons = listOf(
@@ -82,7 +94,7 @@ fun SettingPlayer(navController: NavHostController) {
                     .fillMaxWidth()
                     .padding(top = 10.dp)
             ) {
-                items(dataList) { playersData ->
+                items(playerViewModel.players.value) { playersData ->
 
                     Card(
                         modifier = Modifier
@@ -141,7 +153,7 @@ fun SettingPlayer(navController: NavHostController) {
                                 )
                             }
                             Column {
-                                IconButton(onClick = { dataList.remove(playersData) }) {
+                                IconButton(onClick = { playerViewModel.removePlayer(playersData) }) {
                                     Icon(
                                         imageVector = Icons.Default.Delete,
                                         contentDescription = "Delete",
@@ -154,7 +166,7 @@ fun SettingPlayer(navController: NavHostController) {
                 }
             }
 
-            if (dataList.size < 6) {
+            if (players.size < 6) {
                 Image(
                     painter = painterResource(id = R.drawable.line),
                     contentDescription = "Line",
@@ -187,7 +199,10 @@ fun SettingPlayer(navController: NavHostController) {
                 verticalAlignment = Alignment.Bottom
             ) {
                 IconButton(
-                    onClick = { navController.navigate("MainMenu") },
+                    onClick = {
+                        navController.navigate("MainMenu")
+                        playerViewModel.removeAllPlayer()
+                              },
                     modifier = Modifier.size(150.dp, 100.dp)
                 ) {
                     Image(
@@ -229,8 +244,8 @@ fun SettingPlayer(navController: NavHostController) {
     }
 }
 
-@Preview(showBackground = true)
-@Composable
-fun SettingPlayerPreview() {
-    SettingPlayer(navController = rememberNavController())
-}
+//@Preview(showBackground = true)
+//@Composable
+//fun SettingPlayerPreview() {
+//    SettingPlayer(navController = rememberNavController(), playerViewModel = playerViewModel)
+//}
