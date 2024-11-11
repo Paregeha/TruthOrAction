@@ -1,3 +1,5 @@
+@file:Suppress("UNUSED_EXPRESSION")
+
 package com.example.truthoraction.Screens
 
 import androidx.compose.foundation.Image
@@ -75,7 +77,7 @@ fun SettingRounds(navController: NavHostController) {
                     )
                 }
                 IconButton(
-                    onClick = { "GameTable" },
+                    onClick = { navController.navigate("GameTable") },
                     modifier = Modifier.size(150.dp, 100.dp)
                 ) {
                     Image(

@@ -7,6 +7,8 @@ import androidx.room.PrimaryKey
 
 data class LevelsQuestion(
     @PrimaryKey(autoGenerate = true) val id: Int = 0,
-    val level: String,
-    val questionText: String
+    val levels: String,
+    val truthOrAction: String,
+    val question: String,
+    val custom: String
 )

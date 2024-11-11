@@ -40,11 +40,12 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
+import com.example.truthoraction.Data.QuestionsViewModel
 import com.example.truthoraction.R
 
 @SuppressLint("AutoboxingStateCreation")
 @Composable
-fun SettingQuestion(navController: NavHostController) {
+fun SettingQuestion(navController: NavHostController,viewModel: QuestionsViewModel) {
     val tabs = listOf("Levels", "Custom")
     var selectedTabIndex by remember { mutableStateOf(0) }
 
@@ -97,11 +98,11 @@ fun SettingQuestion(navController: NavHostController) {
             // Додайте контент для вкладок
             when (selectedTabIndex) {
                 0 -> {
-                    Levels()
+                    Levels(viewModel)
                 }
                 1 -> {
                     // Вміст для вкладки Custom
-                    Text("Це вміст для Custom")
+                    Text(viewModel.selectedLevel.toString())
                 }
             }
 
@@ -131,7 +132,7 @@ fun SettingQuestion(navController: NavHostController) {
                     )
                 }
                 IconButton(
-                    onClick = { navController.navigate("SettingRounds") },
+                    onClick = { navController.navigate("GameTable") },
                     modifier = Modifier.size(150.dp, 100.dp)
                 ) {
                     Image(
@@ -151,10 +152,4 @@ fun SettingQuestion(navController: NavHostController) {
             }
         }
     }
-}
-
-@Preview(showBackground = true)
-@Composable
-fun PreviewSettingQuestion() {
-    SettingQuestion(rememberNavController())
 }

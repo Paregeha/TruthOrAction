@@ -2,18 +2,22 @@ package com.example.truthoraction.Screens
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
@@ -27,14 +31,18 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.truthoraction.Data.QuestionsViewModel
 import com.example.truthoraction.R
 
-@Preview()
 @Composable
-fun Levels() {
+fun Levels(viewModel: QuestionsViewModel) {
     val dataList = remember {
         mutableStateListOf("Beginner", "Advanced", "Expert", "Master")
     }
+    val selectedLevel = viewModel.selectedLevel // Використовуємо вибраний рівень з ViewModel
+
+    val questionsState = viewModel.getQuestionsForLevel(selectedLevel).collectAsState(initial = emptyList())
+
 
     val configuration = LocalConfiguration.current
     val screenWidth = configuration.screenWidthDp
@@ -42,15 +50,15 @@ fun Levels() {
 
     // Визначення висоти на основі ширини екрана
     val height = when {
-        screenHeight > 600 -> 600.dp // Для великих екранів
-        screenWidth > 400 -> 450.dp // Для середніх екранів
+        screenHeight > 700 -> 600.dp // Для великих екранів
+        screenHeight > 600 -> 450.dp // Для середніх екранів
         else -> 300.dp // Для маленьких екранів
     }
     Box(modifier = Modifier.fillMaxWidth()) {
         LazyColumn(
             modifier = Modifier.height(height)
         ) {
-            items(dataList.size) {
+            itemsIndexed(dataList) { index, level ->
                 Card(
                     modifier = Modifier
                         .fillMaxWidth()
@@ -58,16 +66,19 @@ fun Levels() {
                         .padding(10.dp)
                         .border(
                             width = 1.dp,
-                            color = Color.White,
+                            color = if (selectedLevel == dataList[index]) Color.Green else Color.White,
                             shape = RoundedCornerShape(5.dp)
-                        ),
+                        )
+                        .clickable {
+                            viewModel.selectedLevel = dataList[index]
+                        },
                     colors = CardDefaults.cardColors(
                         containerColor = colorResource(id = R.color.button)
                     )
                 ) {
                     Row {
                         Text(
-                            text = dataList[it],
+                            text = dataList[index],
                             modifier = Modifier.padding(5.dp),
                             color = colorResource(id = R.color.color_Text),
                             style = TextStyle(
@@ -75,7 +86,7 @@ fun Levels() {
                                 fontFamily = FontFamily(Font(R.font.ibarra_real_nova_variable_font_wght))
                             )
                         )
-                        when (dataList[it]) {
+                        when (dataList[index]) {
                             "Beginner" -> {
                                 Image(
                                     painter = painterResource(id = R.drawable.beginnerimage),

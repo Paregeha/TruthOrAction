@@ -9,6 +9,8 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.systemBarsPadding
@@ -36,17 +38,19 @@ import androidx.compose.ui.draw.paint
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
-import com.example.truthoraction.Data.PlayersData
+import com.example.truthoraction.DataPlayers.PlayerDao
 import com.example.truthoraction.DataPlayers.PlayerViewModel
 import com.example.truthoraction.DataPlayers.Players
 import com.example.truthoraction.R
@@ -54,11 +58,24 @@ import com.example.truthoraction.R
 @Composable
 fun SettingPlayer(navController: NavHostController, playerViewModel: PlayerViewModel) {
     val dataList = remember {
-        mutableStateListOf<PlayersData>()
+        mutableStateListOf<Players>()
     }
     val players by playerViewModel.players.collectAsState()
     var showDialog by remember {
         mutableStateOf(false)
+    }
+
+    val configuration = LocalConfiguration.current
+    val screenWidth = configuration.screenWidthDp
+    val screenHeight = configuration.screenHeightDp
+
+    // Визначення висоти на основі ширини екрана
+    val height = when {
+        screenHeight > 700 -> 600.dp // Для великих екранів
+        screenHeight > 600 && players.size != 6 -> 400.dp // Для середніх екранів
+        screenHeight > 600 -> 500.dp
+
+        else -> 300.dp // Для маленьких екранів
     }
 
     Box(
@@ -78,7 +95,7 @@ fun SettingPlayer(navController: NavHostController, playerViewModel: PlayerViewM
                 SettingPlayerDialog(
                     onDismiss = { showDialog = false },
                     onConfirm = { name, gender, icon ->
-                        playerViewModel.addPlayer(Players(id = 0,name, gender, icon))
+                        playerViewModel.addPlayer(Players(id = 0, name, gender, icon))
                         showDialog = false
                     },
                     dataIcons = listOf(
@@ -93,6 +110,15 @@ fun SettingPlayer(navController: NavHostController, playerViewModel: PlayerViewM
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(top = 10.dp)
+                        then (
+                        if (screenWidth <= 600) {
+                            Modifier.heightIn(
+                                max = height
+                            )
+                        } else {
+                            Modifier // без heightIn для ширших екранів
+                        }
+                        )
             ) {
                 items(playerViewModel.players.value) { playersData ->
 
@@ -127,6 +153,7 @@ fun SettingPlayer(navController: NavHostController, playerViewModel: PlayerViewM
                                         fontFamily = FontFamily(Font(R.font.ibarra_real_nova_variable_font_wght))
                                     )
                                 )
+                                Text(text = screenHeight.toString())
                             }
 
                             Column(
@@ -202,7 +229,7 @@ fun SettingPlayer(navController: NavHostController, playerViewModel: PlayerViewM
                     onClick = {
                         navController.navigate("MainMenu")
                         playerViewModel.removeAllPlayer()
-                              },
+                    },
                     modifier = Modifier.size(150.dp, 100.dp)
                 ) {
                     Image(
@@ -244,8 +271,3 @@ fun SettingPlayer(navController: NavHostController, playerViewModel: PlayerViewM
     }
 }
 
-//@Preview(showBackground = true)
-//@Composable
-//fun SettingPlayerPreview() {
-//    SettingPlayer(navController = rememberNavController(), playerViewModel = playerViewModel)
-//}

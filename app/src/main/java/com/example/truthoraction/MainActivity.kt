@@ -11,6 +11,8 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.WorkManager
+import com.example.truthoraction.Data.AppDataBaseQuestions
+import com.example.truthoraction.Data.QuestionsViewModel
 import com.example.truthoraction.DataPlayers.AppDataBasePlayer
 import com.example.truthoraction.DataPlayers.PlayerViewModel
 import com.example.truthoraction.Screens.GameTable
@@ -23,6 +25,10 @@ class MainActivity : ComponentActivity() {
     private val db: AppDataBasePlayer by lazy { (application as MyApp).database }
     private val playerViewModel: PlayerViewModel by lazy { PlayerViewModel(db.playerDao()) }
 
+    private val db2: AppDataBaseQuestions by lazy { (application as MyApp).database2 }
+    private val questionViewModel: QuestionsViewModel by lazy { QuestionsViewModel(db2.questionDao()) }
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -33,9 +39,9 @@ class MainActivity : ComponentActivity() {
             NavHost(navController = navController, startDestination = "MainMenu") {
                 composable("MainMenu") { MainMenu(navController) }
                 composable("SettingPlayer") { SettingPlayer(navController, playerViewModel) }
-                composable("SettingQuestion") { SettingQuestion(navController) }
+                composable("SettingQuestion") { SettingQuestion(navController, questionViewModel) }
                 composable("SettingRounds") { SettingRounds(navController) }
-                composable("GameTable") { GameTable(navController) }
+                composable("GameTable") { GameTable(navController, playerViewModel, questionViewModel) }
             }
         }
     }

@@ -8,7 +8,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 
-class PlayerViewModel(private val dao:PlayerDao):ViewModel(){
+open class PlayerViewModel(private val dao:PlayerDao):ViewModel(){
     private val _players = MutableStateFlow<List<Players>>(emptyList())
     val players: StateFlow<List<Players>> = _players.asStateFlow()
 
@@ -16,7 +16,7 @@ class PlayerViewModel(private val dao:PlayerDao):ViewModel(){
         loadPlayers()
     }
 
-    private fun loadPlayers() {
+    fun loadPlayers() {
         viewModelScope.launch(Dispatchers.IO) {
             _players.value = dao.getAllPlayers()
         }

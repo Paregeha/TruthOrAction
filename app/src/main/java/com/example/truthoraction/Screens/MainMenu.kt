@@ -40,7 +40,7 @@ fun MainMenu(navController: NavHostController) {
                 contentScale = ContentScale.Crop // Фон розтягується відповідно до екрана
             )
     ) {
-        val isPortrait = maxWidth < 600.dp  // Визначаємо, чи екран у портретному режимі
+        val isPortrait = maxHeight < 600.dp  // Визначаємо, чи екран у портретному режимі
         val buttonWidth = if (isPortrait) 200.dp else 300.dp  // Ширина кнопки залежить від екрана
         val buttonHeight = if (isPortrait) 70.dp else 90.dp  // Вища кнопка для великих екранів
 
