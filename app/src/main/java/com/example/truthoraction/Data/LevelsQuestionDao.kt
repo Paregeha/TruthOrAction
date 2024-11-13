@@ -17,4 +17,7 @@ interface LevelsQuestionDao {
 
     @Query("SELECT * FROM questions_level WHERE levels = :level")
     fun getQuestionsByLevel(level: String): Flow<List<LevelsQuestion>>
+
+    @Query("DELETE FROM questions_level ")
+    suspend fun deleteQuestionsByLevel()
 }

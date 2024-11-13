@@ -1,0 +1,14 @@
+[
+  {
+    "levels": "Master",
+    "truthOrAction": "Truth",
+    "question": "Master-Truth",
+    "custom": ""
+  },
+  {
+    "levels": "Master",
+    "truthOrAction": "Action",
+    "question": "Master-Action",
+    "custom": ""
+  }
+]

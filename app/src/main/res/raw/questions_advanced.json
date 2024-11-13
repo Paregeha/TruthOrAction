@@ -1,0 +1,14 @@
+[
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Advanced1-Truth",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Action",
+    "question": "Advanced-Action!",
+    "custom": ""
+  }
+]

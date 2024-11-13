@@ -1,0 +1,14 @@
+[
+  {
+    "levels": "Beginner",
+    "truthOrAction": "Truth",
+    "question": "Beginner-Truth",
+    "custom": ""
+  },
+  {
+    "levels": "Beginner",
+    "truthOrAction": "Action",
+    "question": "Beginner-Action",
+    "custom": ""
+  }
+]

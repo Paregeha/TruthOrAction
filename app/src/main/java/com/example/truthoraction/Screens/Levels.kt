@@ -18,8 +18,11 @@ import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateListOf
+import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalConfiguration
@@ -39,7 +42,7 @@ fun Levels(viewModel: QuestionsViewModel) {
     val dataList = remember {
         mutableStateListOf("Beginner", "Advanced", "Expert", "Master")
     }
-    val selectedLevel = viewModel.selectedLevel // Використовуємо вибраний рівень з ViewModel
+    var selectedLevel by remember { mutableStateOf<String?>(null) } // Використовуємо вибраний рівень з ViewModel
 
     val questionsState = viewModel.getQuestionsForLevel(selectedLevel).collectAsState(initial = emptyList())
 
@@ -64,14 +67,15 @@ fun Levels(viewModel: QuestionsViewModel) {
                         .fillMaxWidth()
                         .height(150.dp)
                         .padding(10.dp)
+                        .clickable {
+                            selectedLevel = level
+                            viewModel.selectedLevel = level
+                        }
                         .border(
                             width = 1.dp,
-                            color = if (selectedLevel == dataList[index]) Color.Green else Color.White,
+                            color = if (selectedLevel == level) Color.Green else Color.White,
                             shape = RoundedCornerShape(5.dp)
-                        )
-                        .clickable {
-                            viewModel.selectedLevel = dataList[index]
-                        },
+                        ),
                     colors = CardDefaults.cardColors(
                         containerColor = colorResource(id = R.color.button)
                     )

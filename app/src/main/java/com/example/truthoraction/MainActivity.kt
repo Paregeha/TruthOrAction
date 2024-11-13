@@ -26,7 +26,7 @@ class MainActivity : ComponentActivity() {
     private val playerViewModel: PlayerViewModel by lazy { PlayerViewModel(db.playerDao()) }
 
     private val db2: AppDataBaseQuestions by lazy { (application as MyApp).database2 }
-    private val questionViewModel: QuestionsViewModel by lazy { QuestionsViewModel(db2.questionDao()) }
+    private val questionViewModel: QuestionsViewModel by lazy { QuestionsViewModel(db2.questionDao(), applicationContext) }
 
 
     override fun onCreate(savedInstanceState: Bundle?) {

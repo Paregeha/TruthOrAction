@@ -6,6 +6,9 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.sqlite.db.SupportSQLiteDatabase
 import com.example.truthoraction.DataPlayers.AppDataBasePlayer
+import com.example.truthoraction.R
+import com.google.firebase.crashlytics.buildtools.reloc.com.google.common.reflect.TypeToken
+import com.google.gson.Gson
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -20,59 +23,36 @@ abstract class AppDataBaseQuestions : RoomDatabase() {
 
         fun getInstance(context: Context): AppDataBaseQuestions {
             return INSTANCE ?: synchronized(this) {
-                val instance = Room.databaseBuilder(
+                Room.databaseBuilder(
                     context.applicationContext,
                     AppDataBaseQuestions::class.java,
                     "second_database"
-                )
-                    .addCallback(PrepopulateCallback(context)) // Додаємо колбек для початкових даних
-                    .build()
-                INSTANCE = instance
-                instance
-            }
-        }
-
-        // Колбек для початкових даних
-        private class PrepopulateCallback(
-            private val context: Context
-        ) : RoomDatabase.Callback() {
-            override fun onCreate(db: SupportSQLiteDatabase) {
-                super.onCreate(db)
-                CoroutineScope(Dispatchers.IO).launch {
-                    getInstance(context).questionDao().insertQuestions(prepopulateDataBeginner())
+                ).build().also { instance ->
+                    INSTANCE = instance
                 }
             }
         }
 
-        private fun prepopulateDataBeginner(): List<LevelsQuestion> {
-            return listOf(
-                LevelsQuestion(
-                    levels = "Beginner",
-                    truthOrAction = "Truth",
-                    question = "Beginner-Truth",
-                    custom = ""
-                ),
-                LevelsQuestion(
-                    levels = "Beginner",
-                    truthOrAction = "Action",
-                    question = "Beginner-Action",
-                    custom = ""
-                ),
-                LevelsQuestion(
-                    levels = "Advanced",
-                    truthOrAction = "Truth",
-                    question = "Advanced1-Truth",
-                    custom = ""
-                ),
-                LevelsQuestion(
-                    levels = "Advanced",
-                    truthOrAction = "Action",
-                    question = "Advanced-Action!",
-                    custom = ""
-                ),
-                // Додайте більше питань за потреби
-            )
+        // Заповнення бази даних даними з JSON-файлу в залежності від обраного рівня
+        suspend fun prepopulateDatabase(context: Context, level: String) {
+            val questionDao = getInstance(context).questionDao()
+            val jsonResId = when (level) {
+                "Beginner" -> R.raw.questions_beginner
+                "Advanced" -> R.raw.questions_advanced
+                "Expert" -> R.raw.questions_expert
+                "Master" -> R.raw.questions_master
+                else -> R.raw.questions_beginner
+            }
+            val json = context.resources.openRawResource(jsonResId).bufferedReader().use { it.readText() }
+            val questions = parseJson(json)
+            questionDao.insertQuestions(questions)
         }
 
+        // Парсинг JSON
+        private fun parseJson(json: String): List<LevelsQuestion> {
+            val gson = Gson()
+            val listType = object : TypeToken<List<LevelsQuestion>>() {}.type
+            return gson.fromJson(json, listType)
+        }
     }
 }

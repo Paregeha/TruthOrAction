@@ -56,6 +56,7 @@ android {
 
 dependencies {
 
+    implementation(libs.firebase.crashlytics.buildtools)
     val roomVersion = "2.5.1" // Остання версія Room
 
     implementation("androidx.room:room-runtime:$roomVersion")
@@ -72,6 +73,8 @@ dependencies {
     implementation("androidx.compose.material3:material3:1.3.0") // Оновіть версію за потреби
 
     implementation ("androidx.work:work-runtime-ktx:2.8.1")
+
+    implementation ("com.google.code.gson:gson:2.8.9")
 
 
 

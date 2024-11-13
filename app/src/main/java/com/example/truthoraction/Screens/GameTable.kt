@@ -19,6 +19,7 @@ import androidx.compose.foundation.layout.navigationBars
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.wrapContentWidth
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -84,8 +85,6 @@ fun GameTable(
 
     var isQuestionTruthOrActionVisible by remember { mutableStateOf(false) }
 
-    var isTruthOrActionInfo by remember { mutableStateOf("") }
-
     var question by remember { mutableStateOf("") }
 
     var isButtonNextVisible by remember { mutableStateOf(false) }
@@ -134,16 +133,32 @@ fun GameTable(
                     contentScale = ContentScale.FillBounds // Збільшує зображення до контейнера
                 )
                 Column(
-                    horizontalAlignment = Alignment.CenterHorizontally
+                    modifier = Modifier
+                        .align(Alignment.TopCenter)
+                        .padding(top = 20.dp), // Вирівнює колонку зверху
+                    horizontalAlignment = Alignment.CenterHorizontally,
+                    verticalArrangement = Arrangement.Top
                 ) {
                     if (isQuestionTruthOrActionVisible) {
+                        Text(
+                            text = players[selectedPlayerIndex].name,
+                            style = TextStyle(
+                                fontSize = (screenHeight.value * 0.03).sp, // 2.5% від висоти екрана для розміру шрифту
+                                fontFamily = FontFamily(Font(R.font.ibarra_real_nova_variable_font_wght)),
+                                color = colorResource(id = R.color.button)
+                            ),
+                        )
                         Text(
                             text = question,
                             style = TextStyle(
                                 fontSize = (screenHeight.value * 0.03).sp, // 2.5% від висоти екрана для розміру шрифту
                                 fontFamily = FontFamily(Font(R.font.ibarra_real_nova_variable_font_wght)),
                                 color = colorResource(id = R.color.button)
-                            )
+                            ),
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .wrapContentWidth(Alignment.CenterHorizontally)
+                                .padding(horizontal = 16.dp), // Відступи з боків
                         )
                     }
 
@@ -229,7 +244,7 @@ fun GameTable(
                                 isQuestionTruthOrActionVisible = false
                                 isButtonNextVisible = false
                             },
-                            modifier = Modifier.size(150.dp, 100.dp)
+                            modifier = Modifier.size(140.dp, 90.dp)
                         ) {
                             Image(
                                 painter = painterResource(id = R.drawable.cancel_confirm),
@@ -275,7 +290,7 @@ fun GameTable(
                                 isQuestionTruthOrActionVisible = false
 
                             },
-                            modifier = Modifier.size(150.dp, 100.dp)
+                            modifier = Modifier.size(140.dp, 90.dp)
                         ) {
                             Image(
                                 painter = painterResource(id = R.drawable.cancel_confirm),
@@ -323,7 +338,7 @@ fun GameTable(
                                 isQuestionTruthOrActionVisible = false
                                 isRefusePerform = false
                             },
-                            modifier = Modifier.size(150.dp, 100.dp)
+                            modifier = Modifier.size(140.dp, 90.dp)
                         ) {
                             Image(
                                 painter = painterResource(id = R.drawable.cancel_confirm),
@@ -346,7 +361,7 @@ fun GameTable(
                                 isDone = true
                                 isRefusePerform = false
                             },
-                            modifier = Modifier.size(150.dp, 100.dp)
+                            modifier = Modifier.size(140.dp, 90.dp)
                         ) {
                             Image(
                                 painter = painterResource(id = R.drawable.cancel_confirm),
@@ -390,7 +405,7 @@ fun GameTable(
                                 isTruthOrActionVisible = false
 
                             },
-                            modifier = Modifier.size(150.dp, 100.dp)
+                            modifier = Modifier.size(140.dp, 90.dp)
                         ) {
                             Image(
                                 painter = painterResource(id = R.drawable.cancel_confirm),
@@ -428,7 +443,7 @@ fun GameTable(
                                 isTruthOrActionVisible = false
                                 isRefusePerform = true
                             },
-                            modifier = Modifier.size(150.dp, 100.dp)
+                            modifier = Modifier.size(140.dp, 90.dp)
                         ) {
                             Image(
                                 painter = painterResource(id = R.drawable.cancel_confirm),

@@ -1,0 +1,14 @@
+[
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Expert-Truth",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Action",
+    "question": "Expert-Action",
+    "custom": ""
+  }
+]
