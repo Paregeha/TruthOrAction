@@ -2,13 +2,1801 @@
   {
     "levels": "Advanced",
     "truthOrAction": "Truth",
-    "question": "Advanced1-Truth",
+    "question": "Назви 10 частин тіла, які твій партнер любить цілувати",
     "custom": ""
   },
   {
     "levels": "Advanced",
-    "truthOrAction": "Action",
-    "question": "Advanced-Action!",
+    "truthOrAction": "Truth",
+    "question": "Якби ти став(-ла) чоловіком на 1 годину, що б ти робив(-ла)",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Який найбільш незручний момент був в твоєму житті?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Опиши найдивніший сон, який в тебе був в житті",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "З ким із присутніх, ти б хотів(-ла) помінятись життями на 1 тиждень",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Стосовно чого в своїй зовнішності ти отримуєш найбільше компліментів",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Що б ти не зробив(-ла) навіть за найбільші гроші в світі?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Як ти думаєш, твій партнер думає про шлюб?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Яка найбільш шалена річ трапилась з тобою в супермаркеті?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Як ти дізнався(-лась), що Миколай не справжній?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "На яке б питання ти найменше б хотів(-ла) відповідати?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Який факт про тебе може відштовхнути інших?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Чи є в тебе щоденник?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Яку найдорожчі річ ти коли-небудь ламав(-ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Скільки тобі було років, коли ти вперше поцілувався(-лась)?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Яку б суперсилу ти хотів(-ла) б мати?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Опиши себе 5 словами",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "В чому ти зазвичай спиш?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Який твій таємний талант?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Який би талант ти б хотів(-ла) мати?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Якби ти міг/могла вибирати, де пожити рік, де б це було?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Ти досі спиш з чимось улюбленим (м’яка іграшка чи покривальце)?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Ти коли-небудь вдавав(-ла), що ти хворий(-а), щоб залишитись вдома?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Чи є щось, що б ти навіть зараз не розказав(-ла) батькам? Що це?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Яку стрижку або зачіску ти хотчеш, але ніколи так і не наважився(-лась) спробувати?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Яку частину свого тіла ти любиш?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Яку річ ти найбільше боїшся в житті?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Яку найбільшу помилку ти робив(-ла) в своєму житті?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Про кого ти казав(-ла) погані слова?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Було таке, що ти щось викрав(-ла) або позичив(-ла) і не повернув(-ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Що ти останне пообіцав(-ла) і не виконав(-ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Яке незвичайне ім’я ти хотів(-ла) би мати, якщо б міг перейменуватися?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Яку секретну здібність ти маєш, але мало хто про неї знає?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Яка незвичайна річ у тебе є під подушкою або під матрацем?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Скільки максимально днів не змінювали білизну?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Чий голос серед тих, хто зараз тут, найжахливіший?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Їли щось з підлоги?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Колись ходили в туалет по великому на вулиці?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Кого із присутніх дівчат/хлопців ти б запросив(-ла) на побачення?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "За яку історію із життя тобі соромно?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Якою супер силою ти б хотів володіти?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Чи тренувався цілуватись із дзеркалом чи на помідорі?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Чи відбивала колись у подружки/друга хлопця/дівчину?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Чи ображався(-лась) ти колись на якесь прізвисько?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Брехав(-ла) батькам про свою успішність в школі?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Про яку роботу ти мрієш?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Яка твоя улюблена книга?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Ти колись плакав(-ла) через відмову з тобою погуляти?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Назви одну річ яку б ти в собі змінив(-ла)",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Назви людину в яку ти таємно закоханий(-на)",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Через який фільм ти плакав(-ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Що найбільше любиш робити коли тобі сумно?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Для чого використовуєш свій вільний час?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Яке заняття тебе захоплює?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "З яким актором чи актрисою ти б хотів(-ла) познайомитись?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Книгам якого жанру надаєш перевагу?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Ким себе бачиш через 10 років?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Чи можеш надіслати останнє фото зі своєї галереї?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Яка найсмішніша ситуація, що з тобою траплялась?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Про що найбільше шкодуєш?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Якими якостями має володіти справжній друг/подруга? А друга половинка?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Чи віриш ти в кохання з першого погляду?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Яке б бажання ти б загадав(-ла) джину?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Щоб ти зробив(-ла) найперше мене побачивши?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Розстав людей в кімнаті згідно з їх привабливості.",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "З ким у компанії у тебе найгірші стосунки та чому?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Яке питання ти останній раз ставив(-ла) гуглу?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Про що думаєш зараз?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Якщо кидаєш їжу на підлогу, їж її?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Ти колупаєшся в носі?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Ти їв(ла) колись козявки?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Ти ходиш по маленькому в море?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Тобі подобається твій голос?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Ти їв(ла) щось із пліснявою?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Незручний момент, який довелося пережити на людях?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Ти соромишся співати?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Ходеш по маленькому в душі?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Знайомився(-лася) на вулиці?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Розмовляєш із котом?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Про що ніколи не попросиш у батьків?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Які запити з історії браузера видаляєш?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Кому не наважуєшся написати повідомлення?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Якби можна було скасувати одну з дурниць, вчинених у житті, що б вибрав(ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "За який вчинок тобі особливо соромно?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Як ставишся до геїм та лесбіянок?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Яке повідомлення написане з твого телефону останнім?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Як ти записав(ла) друга/подругу в телефоні?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Улюблена страва?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Гризеш нігті?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Пукали в громадському місці?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Що тебе найбільше бісить?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "За скільки грошей поправився(-лась) би на 50 кг?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Який мат говориш найчастіше?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Улюблене лагідне звернення?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Якщо тобі треба буде віддати комусь усі свої гроші, хто це буде?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Чи вважаєш себе красивою(им)?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Чухаєш попу в людних місцях?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Опиши свій останній сон?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "На кого хотів(-ла) би бути схожим?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Що б не погодився(-лася) з’їсти навіть за 100000 доларів?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Здавав(-ла) друга/подругу або когось іншого?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Ти колись псував продукти в магазині і не повідомляв про це?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Лаявся на вулиці через дурниці?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "У тебе ноги смердять?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Колись рвався одяг у невідповідний час і невідповідному місці?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Падав(-ла) при людях?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Якби можна було змінити щось у своїй зовнішності, щоб це було?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Коли приймаєш душ, ти співаєш?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Коли востаннє доводилося брехати батькам?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "У телефоні всі записані під своїми іменами чи є приховані контакти?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "У дитинстві були воші?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Чи є особистий щоденник?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Коли поганий настрій, що робиш?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Ти боїшся темряви?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Вмієш робити шпагат?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Тобі казали, що ти страшна(-ий)?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Найприкріше. що казали тобі?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Яка твоя коронна страва?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Крав одяг?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Коли востаннє був(-ла) на морі?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Ти впевнена(-ий) у собі?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Худнув(-ла) колись навмисно?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Чи можеш подружитися з ворогом через вигоду?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Як ти вважаєш, ти добре танцюєш?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Найдорожчий подарунок, який тобі робили?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Тобі подобається твоя постать?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Якою частиною свого тіла милуєшся найдовше перед дзеркалом?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Максимальна різниця у віці, яка тобі допустима?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Які вчинки засуджуєш?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Кинеш дівчину/хлопця, якщо батькам вона/він не сподобається?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Збігав(-ла) з дому?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "У тебе зараз волохаті ноги?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Чи можна забрати хлопця/дівчину в друга/подруги, якщо дуже подобається?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Читаєш книжки?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Тобі коли-небудь казали, що ти страшний(-на)?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Коли брехав(-ла) останній раз?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Розкажи те, що ніхто не знає.",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Про що зараз мрієш?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Коли востаннє ходив(-ла) у кіно?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Соромишся говорити на відверті теми?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Коли ти червонієш?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Якщо пукнеш при всіх, що робитимеш?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Що тебе може відштовхнути від хлопця/дівчини?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Чи знаєш чиїсь секрети, які не можна ні в якому разі говорити?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Через тебе хтось бився?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Через що викликали батьків у школу?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Тебе хтось кидав на гроші?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Чому плакав останній раз?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Що тебе може сильно засмутити?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Що може заставити тебе піти з побачення?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Пліткуєш з подругами/друзями про інших людей?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Любиш їсти вночі?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Яких питань найбільше боїшся?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Ти полохливий(-а)?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Комусь дзвониш і мовчиш у слухавку?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Від кого чекаєш на дзвінок?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Чий дзвінок здивував би зараз найбільше, але був би дуже довгоочікуваним?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Чому ти погодився(-лась) на цю гру?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Що робиш, коли нудно?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Готувати вмієш?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Ходив(-ла) по маленькому у ліфті чи під’їзді?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "З парашутом стрибав(-ла)",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Страшний сон це який?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Дивишся фільми жахи?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Дівчата можуть писати першими чи завжди тільки хлопці?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Як бути, якщо тебе покинули?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Кого візьмеш із собою на безлюдний острів?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Хто тебе бісить?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Під час гри збрехав(-ла) хоч один раз?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Як вважаєш, за що тебе цінують друзі?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Бився з кимось, через що?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Брюнети(-тки) чи блондини(-нки) привабливіші?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Хто з наших знайомих найбільше схожий на твій ідеал?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Хто з присутніх найбільше схожий на твій ідеал?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "У скільки років вперше закохалася(-вся)?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Віриш у любов до труни?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Дивишся мультики?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "За які вчинки сам(-а) себе лаєш?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Чавкаєш під час їжі?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Яке зауваження не наважуєшся зробити мамі?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Тебе коли-небудь карали батьки?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Хочеш бути схожою(-им) на своїх батьків?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Кому насамперед подзвониш, якщо злякаєшся чогось?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Звертався в поліцію коли-небудь? Чого?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Хто твій найкращий друг/подруга?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Що тобі найчастіше радять зробити друзі?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Про що думаєш цілий день?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Скільки разів на добу ти розмовляєш з кимось по телефону?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Чи є у тебе домашня тварина?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Піжама чи без неї?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Весілля чи захоплюючу подорож в ковпаніїї друга/подруги?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Якщо ти потрапиш в біду, хто прийде рятувати?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Ти вважаєш себе успішним?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Ходив(-ла) до ворожки?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Якби у тебе була машина часу, куди б ти поїхав(-ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Якби твоє життя зняли у фільм, хто б тебе зіграв?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Ти коли-небудь крав(-ла) щось?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Який найгірший подарунок ти коли-небудь отримував(-ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Що найбожевільніше ти б зробив(-ла) заради кохання?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Скільки разів ти вибирався(-лась) з дому потайки?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Хто був твоєю першою знаменитістю, у яку ти закохався(-лась)?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Якби ти міг(-ла) жити де завгодно у світі, де б ти жив(-ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Який був найкращий день у твоєму житті і чому?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Що найсоромніше ти робив коли твої батьки зайшли у твою кімнату?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Ти коли-небудь мав(-ла) почуття до когось у цій кімнаті?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Який найсмішніший слух ти коли-небудь чув(-ла) про себе?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Якби ти міг(-ла) магічно володіти будь-якою мовою, яку б ти обрав і чому?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Яке найімпульсивніше рішення ти коли-небудь приймав(-ла), і чи виявилося воно хорошим чи поганим?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Що б ти робив(-ла), якби був невидимим на один день?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Якби ти міг(-ла) бути професійним(-ною) спортсменом(-кою), який вид спорту б ти обрав(-ла) і чому?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Ти віриш у привидів та духів?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Яка пригода тобі запам'яталась, в яку ти колись потрапив(-ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Якби ти міг(-ла) їсти тільки одну їжу до кінця життя, що б це було?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Що ти любиш робити, коли залишаєшся наодинці?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Яка найгірша їжа ти коли-небудь їв(-ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Яким був(-ла) би ти вигаданим персонажем і чому?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Коли востаннє ти щиро вибачався(-лась) і чому?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Який був твій найболючіший досвід?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Яка найбільша брехня, яку ти коли-небудь говорив(-ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Яка найбільша брехня, яку ти коли-небудь чув?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Ти коли-небудь бився(-лась) з кимось? Якщо так, розкажи всю історію!",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Чи розглядав(-ла) би ти можливість використання підробленого ID?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Хто, на твою думку, найпривабливіша людина у цій кімнаті?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Що найбожевільніше ти б зробив(-ла) за мільйон доларів?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Що б ти вибрав(-ла): здатність літати чи мати рентгенівський зір?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Якби ти міг(-ла) повернутися назад у часі, яку пораду ти б дав(-ла) своєму молодшому я?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Тобі коли-небудь було так соромно, що хотів(-ла) зникнути?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Що найбільше тебе дратує в людині зліва від тебе?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Яку найбожевільнішу річ, яку ти робив(-ла), щоб вразити когось?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Чи пошкодував(-ла) за те, що виклав(-ла) щось у соціальних мережах? Що це було?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Якби у твого життя була тематична пісня, яка б вона була?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Хто, на твою думку, душна людина в цій кімнаті і чому?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Оціни себе з 1 до 10, наскільки ти вважаєш себе привабливим.",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Хто твій найганебніший знаменитий кумир?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Чи доводилося тобі коли-небудь ходити в туалет у громадському місці без туалетного паперу? Що ти робив(-ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Яку фразу для залицяння ти б використав(-ла), якби зустрів свого знаменитого кумира?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Розкажи про найдорожчу річ, яку ти коли-небудь купував(-ла), і чи шкодуєш ти про це.",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Який найдовший період ти не приймав(-ла) душ?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Який найсмішніший розіграш ти коли-небудь влаштовував(-ла) комусь?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Чи було у тебе коли-небудь захоплення одним із твоїх вчителів? Якщо так, то хто це був?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "З яким вигаданим персонажем(ігри, фільми, мультики ...) ти хотів(-ла) би одружитися?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Яка найдивніша річ, до якої у тебе є емоційна прихильність?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Як ти думаєш, що найдивніше у твоїй родині?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Чи брехав(-ла) ти під час цієї гри сьогодні, і ми це пропустили?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Якби ти міг(-ла) помінятися життями з вигаданим персонажем на один день, хто б це був і чому?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Який найдешевший подарунок ти коли-небудь дарував(-ла) комусь?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Який найтриваліший час ти коли-небудь був(-ла) під домашнім арештом і чому?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Чи був(-ла) ти коли-небудь у бійках під час навчання у школі?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Яка найгірша річ, яку ти коли-небудь зробив(-ла) комусь?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Який твій найганебніший дитячий спогад?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Яка найгірша чутка, якій ти вірив(-ла), не знаючи, що вона неправдива?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Який найогидніший жарт ти коли-небудь чув(-ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Хто остання людина, яку ти хотів(-ла) би бачити без одягу?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Яке слово чи фразу ти неправильно розумів(-ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Яку пісню ти любиш співати з усіх сил, коли впевнений(-на), що тебе ніхто не чує?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Що тебе лякає, але насправді нема нічого страшного?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Хотів би ти обійматися з людиною зліва від тебе?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Хотів би ти обійматися з людиною зправа від тебе?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Ти прикидався(-лась), що подобається подарунок? Що це було?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Чи був у тебе коли-небудь уявний друг?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "На яке питання ти найбільше боїшся відповісти чесно?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Який найдивніший сон ти коли-небудь бачив(-ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Розкажи нам про свою найгіршу історію п’янки!",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Що тобі подобається, а більшість людей не люблять?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Кого б ти вибрав(-ла), якби тобі довелося вбити трьох людей у світі?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Чи коли-небудь ти відправляв(-ла) повідомлення не тій людині, і що це було?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "У тебе була ситуація коли хотів(-ла) зробити тихий пук, а вийшло БРбрХШшчБдрвПВв ...",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Що незаконного ти коли-небудь робив(-ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Якби ти міг(-ла) уникнути покарання за злочин, що б це було?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Як звали твою першу симпатію?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Хто найнесподіваніша людина, яка коли-небудь писала тобі у приватні повідомлення?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Як би ти вижив(-ла) під час зомбі-апокаліпсису?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Якщо б ти мусив(-ла) відмовитися від одного зі своїх чуттів, яке б це було?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Одна річ, яку ти б ніколи не зробив(-ла), навіть якщо б тобі запропонували більше грошей, ніж ти можеш уявити",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Що ти зробив(-ла), і сподіваєшся, що твої батьки ніколи не дізнаються?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Ким ти хочеш стати, коли виростеш?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Який твій улюблений предмет був(є) в школі і чому?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Хто твій улюблений мультяшний персонаж і чому?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Де б ти хотів(-ла) провести літні канікули/відпустку?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Хто твій улюблений вчитель?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Який твій улюблений колір?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Якби ти був(-ла) супергероєм, ким би ти був(-ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Хто твій улюблений персонаж Disney?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Що б ти зробив(-ла) з $1,000?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Чи коли-небудь ти списував(-ла) на тесті?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Коли ти востаннє прибирав(-ла) свою кімнату?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Чи коли-небудь плакав(-ла) під час перегляду фільму? Якщо так, то який?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Чи хочеш ти стати відомим(-ою), коли виростеш? Чому так або чому ні?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Що тебе може розмішити?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "З ким ти проводиш більшість свого часу?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Чи дивився(-лась) ти коли-небудь фільм або телешоу, яке тобі не дозволяли дивитися?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Які найсмішніші слова ти знаєш?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Чи коли-небудь ламав(-ла) щось?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Чи хотів(-ла) би ти жити в світі магії або супергероїв?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Які дні народження членів твоєї родини?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Чи є у тебе таємна шкільна симпатія? Якщо так, чи є ця особа в цій кімнаті?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Чи коли-небудь ти стежив(-ла) за кимось у соціальних мережах? Хто це був?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Що б ти зробив, якби знав(-ла), що за це не буде наслідків?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Хто найкрасивіша особа в кімнаті?",
+    "custom": ""
+  },
+  {
+    "levels": "Advanced",
+    "truthOrAction": "Truth",
+    "question": "Яка, на твою думку, найбільша проблема, з якою стикаються підлітки сьогодні?",
     "custom": ""
   }
 ]

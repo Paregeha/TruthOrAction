@@ -2,13 +2,2473 @@
   {
     "levels": "Expert",
     "truthOrAction": "Truth",
-    "question": "Expert-Truth",
+    "question": "Назви 10 частин тіла, які твій партнер любить цілувати",
     "custom": ""
   },
   {
     "levels": "Expert",
-    "truthOrAction": "Action",
-    "question": "Expert-Action",
+    "truthOrAction": "Truth",
+    "question": "Назви 10 речей, які ти купив(-ла), але або ніколи не використовувала, або жалієш, що придбала",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Якби ти став(-ла) чоловіком на 1 годину, що б ти робив(-ла)",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Який найбільш незручний момент був в твоєму житті?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Опиши найдивніший сон, який в тебе був в житті",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "З ким із присутніх, ти б хотів(-ла) помінятись життями на 1 тиждень",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Стосовно чого в своїй зовнішності ти отримуєш найбільше компліментів",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Що б ти не зробив(-ла) навіть за найбільші гроші в світі?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Як ти думаєш, твій партнер думає про шлюб?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яка найбільш шалена річ трапилась з тобою в супермаркеті?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Як ти дізнався(-лась), що Миколай не справжній?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "На яке б питання ти найменше б хотів(-ла) відповідати?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чи ти коли-небудь порушував(-ла) закон?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Який факт про тебе може відштовхнути інших?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чи є в тебе щоденник?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яку найдорожчі річ ти коли-небудь ламав(-ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Якби ти був(-ла) невидимою 2 години, що б ти зробив(-ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Що найбільше ти любиш облизувати?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Скільки тобі було років, коли ти вперше поцілувався(-лась)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яку б суперсилу ти хотів(-ла) б мати?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Який тип білизни ти носиш?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Опиши себе 5 словами",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "В якому найдивнішому місці ти був(-ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "В чому ти зазвичай спиш?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Що найбільш божевільне ти робив(-ла), поки був(-ла) п’яний(-а)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Який твій таємний талант?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Який би талант ти б хотів(-ла) мати?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "З ким би ти хотів(-ла) сходити на вечерю?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Розкажи щось гравцям про себе, що ніхто із них не знає",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Якби ти міг/могла вибирати, де пожити рік, де б це було?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яка твоя улюблена відпустка, в якій ти був(-ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Ти досі спиш з чимось улюбленим (м’яка іграшка чи покривальце)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Ти коли-небудь вдавав(-ла), що ти хворий(-а), щоб залишитись вдома?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чи є щось, що б ти навіть зараз не розказав(-ла) батькам? Що це?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Що ти робиш для того, щоб виглядати сексі?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яку стрижку або зачіску ти хотчеш, але ніколи так і не наважився(-лась) спробувати?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яку частину свого тіла ти любиш?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яку річ ти найбільше боїшся в житті?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яка твоя остання секретна мрія, яку ти нікому не розповідав(-ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яке незвичайне хобі ти би хотів(-ла) спробувати, але ще не наважився(-лася)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яку найбільшу помилку ти робив(-ла) в своєму житті?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Про кого ти казав(-ла) погані слова?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Було таке, що ти щось викрав(-ла) або позичив(-ла) і не повернув(-ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Що ти останне пообіцав(-ла) і не виконав(-ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Якби була можливість випробувати будь-яку професію на один день, яка б це була?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яке незвичайне ім’я ти хотів(-ла) би мати, якщо б міг перейменуватися?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Якби ти міг(-ла) побувати в будь-якому історичному періоді, куди б ти подорожував і чому?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яку книгу або фільм ти соромишся визнати, що не читав або не дивився?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яка незвичайна річ у тебе є під подушкою або під матрацем?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Було таке, що пукнув(-ла) у натовпі і робив(-ла) вигляд, що це не ти?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Скільки максимально днів не змінювали білизну?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "За 10 мільйонів доларів погодився(-лась) би на одностатевий шлюб?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Було таке, що дзвонили, мовчали і кидали слухавку, бо соромилися говорити?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чий голос серед тих, хто зараз тут, найжахливіший?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Їли щось з підлоги?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Як підписана кохана людина в твоєму телефоні?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Хто з присутніх снився тобі?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чи фантазував(-ла) про якусь вчительку(-ля) початкових класів.",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Колись ходили в туалет по великому на вулиці?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Позуєте голим, коли одні вдома?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Коли перший раз побачив(-ла) “кіно для дорослих”?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Що найромантичніше ти робив(-ла) у своєму житті?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Кого із присутніх дівчат/хлопців ти б запросив(-ла) на побачення?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "За яку історію із життя тобі соромно?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Назви 5 останніх пошукових запитів у Google",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Якою супер силою ти б хотів володіти?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яка твоя найгірша звичка від якої ти хочеш позбутись?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Що найгірше ти витворяв будучи у нетверезому стані?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чи тренувався цілуватись із дзеркалом чи на помідорі?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Що тобі потрібно зробити аби стати успішним?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "З ким із присутніх ти би погодився(-лась) піти на побачення?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Якби тобі довелось зійтись з колишнім(-ньою), з ким би саме ти би погодилась(-вся)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чи відбивала колись у подружки/друга хлопця/дівчину?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Подабався хлопець/дівчина твоєї/твого подруги/друга? Заздрила(-в) їй?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Кого вважаєш найпривабливішим у цій кімнаті?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Назви частину тіла якою б ти хотів(-ла) помінятись зі своїм(-єю) другом/подругою.",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чи ображався(-лась) ти колись на якесь прізвисько?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "За який вчинок тобі соромно?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Брехав(-ла) батькам про свою успішність в школі?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "З ким був перший поцілунок?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Що б ти зробив(-ла) за тиждень змінивши стать?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Про яку роботу ти мрієш?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яка твоя улюблена книга?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Ти колись плакав(-ла) через відмову з тобою погуляти?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Назви одну річ яку б ти в собі змінив(-ла)",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Назви людину в яку ти таємно закоханий(-на)",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Через який фільм ти плакав(-ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Що найбільше любиш робити коли тобі сумно?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Для чого використовуєш свій вільний час?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яке заняття тебе захоплює?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "З яким актором чи актрисою ти б хотів(-ла) познайомитись?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Книгам якого жанру надаєш перевагу?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Ким себе бачиш через 10 років?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чи можеш надіслати останнє фото зі своєї галереї?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яка найсмішніша ситуація, що з тобою траплялась?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Про що найбільше шкодуєш?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Якими якостями має володіти справжній друг/подруга? А друга половинка?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чи віриш ти в кохання з першого погляду?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яке б бажання ти б загадав(-ла) джину?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Щоб ти зробив(-ла) найперше мене побачивши?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Якого кольором твоя білизна?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "З ким ти останній раз цілувався(-лась)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чи хотів(-ла) ти кого-небудь вбити?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Кого з присутніх ти б не покликав(-ла) на побачення?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Розстав людей в кімнаті згідно з їх привабливості.",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Що найгірше ви робили привселюдно?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "З ким у компанії у тебе найгірші стосунки та чому?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яким було твоє перше враження про людей присутніх тут?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чи водив(-ла) ти у нетверезому стані?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Тебе затримувала поліція?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яке питання ти останній раз ставив(-ла) гуглу?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Про що думаєш зараз?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Якщо кидаєш їжу на підлогу, їж її?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Ти колупаєшся в носі?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Ти їв(ла) колись козявки?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Ти ходиш по маленькому в море?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Як гадаєш, хто в цій кімнаті найкрасивіший?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Правда, що ти вищипуєш волосся в носі?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Кого із присутніх хочеш поцілувати?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яку частину свого тіла хотів(-ла) би виправити у пластичного хірурга?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Тобі подобається твій голос?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Любуєшся собою голим(ою)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Ти їв(ла) щось із пліснявою?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Незручний момент, який довелося пережити на людях?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Ти соромишся співати?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Ходеш по маленькому в душі?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Знайомився(-лася) на вулиці?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Розмовляєш із котом?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Про що ніколи не попросиш у батьків?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Які запити з історії браузера видаляєш?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Кому не наважуєшся написати повідомлення?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Тобі подобається, як ти виглядаєш з ранку?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Ти освідчувався(-ла) у коханні першим(-ою)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Якби можна було скасувати одну з дурниць, вчинених у житті, що б вибрав(ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "За який вчинок тобі особливо соромно?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Напивався до безпам’ятства?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "У скільки років був перший поцілунок?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Поцілунок – це зрада?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Як ставишся до геїм та лесбіянок?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Якого кольору на тобі зараз білизна?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яке повідомлення написане з твого телефону останнім?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Як ти записав(ла) друга/подругу в телефоні?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Улюблена страва?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Скільки днів носиш одну і ту саму білизну?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Гризеш нігті?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Пукали в громадському місці?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Що тебе найбільше бісить?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "За скільки грошей поправився(-лась) би на 50 кг?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Який мат говориш найчастіше?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Улюблене лагідне звернення?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Кому писав(ла) «я тебе кохаю»? Перечисли.",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Напивався(-лась) сам колись?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Якщо тобі треба буде віддати комусь усі свої гроші, хто це буде?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Готовий(-а) прощати зраду?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чи зважився(-лася) б на зраду з помсти?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Тобі робили пропозицію руки і серця?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чи вважаєш себе красивою(им)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чухаєш попу в людних місцях?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Опиши свій останній сон?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "На кого хотів(-ла) би бути схожим?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Що б не погодився(-лася) з’їсти навіть за 100000 доларів?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Здавав(-ла) друга/подругу або когось іншого?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чи доводилося мати справу з поліцією?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Якщо переїжджати до іншої країни, то куди?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Можеш заради коханого(-ної) кинути все і поїхати куди скаже?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Ти колись псував продукти в магазині і не повідомляв про це?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Лаявся на вулиці через дурниці?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "У тебе ноги смердять?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Колись рвався одяг у невідповідний час і невідповідному місці?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Падав(-ла) при людях?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Що не готовий пробачити хлопцю / дівчині?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яка мамина порада тобі особливо знадобилася?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Якби можна було змінити щось у своїй зовнішності, щоб це було?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Наркотики пробував(ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Ходиш удома без одягу?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Коли приймаєш душ, ти співаєш?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Коли востаннє доводилося брехати батькам?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "У телефоні всі записані під своїми іменами чи є приховані контакти?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "З колишнім(-ньою) бачилася після розставання?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Якщо зателефонує колишній(-я) і попросити повернутися, що робитимеш?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "У дитинстві були воші?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Дивишся фільми для дорослих?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "У скільки років дізнався(-лась) про секс?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Хто з акторів тобі подобається найбільше?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чи є особистий щоденник?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Коли поганий настрій, що робиш?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Якщо потрібно буде помінятися з кимось одягом із присутніх, кого вибереш?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Коли востаннє цілувалася(-вся)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Ти боїшся темряви?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Гадав(-ла) чи намагався(-лась) навести на когось негоду?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Вмієш робити шпагат?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Тобі казали, що ти страшна(-ий)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Найприкріше. що казали тобі?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Видавав(-ла) секрети подруг/друзів?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яка твоя коронна страва?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Крав одяг?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Пукав(-ла) при другій половинціі?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Якщо потрібно буде збрехати заради іншої людини, чи погодишся?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Коли востаннє був(-ла) на морі?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Як гадаєш, ти подобаєшся комусь у цій кімнаті?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Ти впевнена(-ий) у собі?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Худнув(-ла) колись навмисно?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Нирку кому готовий(-ва) віддати?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Давав(-ла) хабар?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чи можеш подружитися з ворогом через вигоду?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Кого з артистів вважаєш привабливим? Кого?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Тобі подобається цілуватися на людях?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Як ти вважаєш, ти добре танцюєш?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Скільки разів закохувався(-лась)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Готовий(-а) на відносини з дуже негарною людиною, але багатою?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Найдорожчий подарунок, який тобі робили?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Коли востаннє пив(-ла) алкоголь?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Скільки алкоголю тобі потрібно випити, щоби сильно оп’яніти?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Тобі подобається твоя постать?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Якою частиною свого тіла милуєшся найдовше перед дзеркалом?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Якщо дівчина/хлопець негарна(-ий), але розкута(-ий), будеш з нею/ним зустрічатися?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Зовнішність партнера має значення?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Максимальна різниця у віці, яка тобі допустима?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Які вчинки засуджуєш?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Кинеш дівчину/хлопця, якщо батькам вона/він не сподобається?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Збігав(-ла) з дому?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "У тебе зараз волохаті ноги?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Як готуєшся до побачення?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чи можна забрати хлопця/дівчину в друга/подруги, якщо дуже подобається?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Скільки хочеш дітей?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Читаєш книжки?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Тобі коли-небудь казали, що ти страшний(-на)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Найголовніші якості для чоловіка/жінки?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Коли брехав(-ла) останній раз?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Розкажи те, що ніхто не знає.",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Колись підглядав(-ла) за кимось?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Про що зараз мрієш?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Коли востаннє ходив(-ла) у кіно?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Соромишся говорити на відверті теми?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Коли ти червонієш?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Якщо пукнеш при всіх, що робитимеш?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Що тебе може відштовхнути від хлопця/дівчини?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Ти куриш?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яка твоя непристойна фантазія?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чи знаєш чиїсь секрети, які не можна ні в якому разі говорити?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Через тебе хтось бився?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чи є інтимні фотки в телефоні?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Через що викликали батьків у школу?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Сидиш на сайті знайомств?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Видавав(-ла) себе за іншу людину?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Тебе хтось кидав на гроші?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чому плакав останній раз?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Що тебе може сильно засмутити?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Що може заставити тебе піти з побачення?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Пліткуєш з подругами/друзями про інших людей?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Любиш їсти вночі?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яких питань найбільше боїшся?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "На відверті теми, з ким говориш?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Обговорюєш із друзями інтимне життя?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Якщо запропонують сто тисяч в обмін на стосунки, кинеш хлопця/дівчину?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Ти полохливий(-а)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Комусь дзвониш і мовчиш у слухавку?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Від кого чекаєш на дзвінок?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чий дзвінок здивував би зараз найбільше, але був би дуже довгоочікуваним?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чому ти погодився(-лась) на цю гру?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Що робиш, коли нудно?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Готувати вмієш?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Ходив(-ла) по маленькому у ліфті чи під’їзді?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "З парашутом стрибав(-ла)",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Страшний сон це який?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Дивишся фільми жахи?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Дівчата можуть писати першими чи завжди тільки хлопці?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Як бути, якщо тебе покинули?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Кого візьмеш із собою на безлюдний острів?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Хто тебе бісить?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Під час гри збрехав(-ла) хоч один раз?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Як вважаєш, за що тебе цінують друзі?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Бився з кимось, через що?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Брюнети(-тки) чи блондини(-нки) привабливіші?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Хто з наших знайомих найбільше схожий на твій ідеал?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Хто з присутніх найбільше схожий на твій ідеал?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "У скільки років вперше закохалася(-вся)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Віриш у любов до труни?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Дивишся мультики?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "За які вчинки сам(-а) себе лаєш?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чавкаєш під час їжі?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яке зауваження не наважуєшся зробити мамі?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Тебе коли-небудь карали батьки?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Хочеш бути схожою(-им) на своїх батьків?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Кому насамперед подзвониш, якщо злякаєшся чогось?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Звертався в поліцію коли-небудь? Чого?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Хто твій найкращий друг/подруга?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Що тобі найчастіше радять зробити друзі?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Про що думаєш цілий день?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Скільки разів на добу ти розмовляєш з кимось по телефону?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чи є у тебе домашня тварина?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Піжама чи без неї?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Весілля чи захоплюючу подорож в ковпаніїї друга/подруги?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Скільки має тривати нормальний секс?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Якщо ти потрапиш в біду, хто прийде рятувати?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Ти вважаєш себе успішним?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Ходив(-ла) до ворожки?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Якби у тебе була машина часу, куди б ти поїхав(-ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Якби твоє життя зняли у фільм, хто б тебе зіграв?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Ти коли-небудь крав(-ла) щось?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Який найгірший подарунок ти коли-небудь отримував(-ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Що найбожевільніше ти б зробив(-ла) заради кохання?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Скільки разів ти вибирався(-лась) з дому потайки?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Хто був твоєю першою знаменитістю, у яку ти закохався(-лась)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Якби ти міг(-ла) жити де завгодно у світі, де б ти жив(-ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Який був найкращий день у твоєму житті і чому?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Що найсоромніше ти робив коли твої батьки зайшли у твою кімнату?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Ти коли-небудь мав(-ла) почуття до когось у цій кімнаті?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Який найсмішніший слух ти коли-небудь чув(-ла) про себе?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Якби ти міг(-ла) магічно володіти будь-якою мовою, яку б ти обрав і чому?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яке найімпульсивніше рішення ти коли-небудь приймав(-ла), і чи виявилося воно хорошим чи поганим?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Що б ти робив(-ла), якби був невидимим на один день?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Якби ти міг(-ла) бути професійним(-ною) спортсменом(-кою), який вид спорту б ти обрав(-ла) і чому?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Ти віриш у привидів та духів?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яка пригода тобі запам'яталась, в яку ти колись потрапив(-ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Якби ти міг(-ла) їсти тільки одну їжу до кінця життя, що б це було?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Що ти любиш робити, коли залишаєшся наодинці?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яка найгірша їжа ти коли-небудь їв(-ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яким був(-ла) би ти вигаданим персонажем і чому?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Коли востаннє ти щиро вибачався(-лась) і чому?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Який був твій найболючіший досвід?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яка найбільша брехня, яку ти коли-небудь говорив(-ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яка найбільша брехня, яку ти коли-небудь чув?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Ти коли-небудь бився(-лась) з кимось? Якщо так, розкажи всю історію!",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чи розглядав(-ла) би ти можливість використання підробленого ID?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Хто, на твою думку, найпривабливіша людина у цій кімнаті?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Що найбожевільніше ти б зробив(-ла) за мільйон доларів?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Що б ти вибрав(-ла): здатність літати чи мати рентгенівський зір?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Якби ти міг(-ла) повернутися назад у часі, яку пораду ти б дав(-ла) своєму молодшому я?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Тобі коли-небудь було так соромно, що хотів(-ла) зникнути?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Що найбільше тебе дратує в людині зліва від тебе?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яку найбожевільнішу річ, яку ти робив(-ла), щоб вразити когось?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чи пошкодував(-ла) за те, що виклав(-ла) щось у соціальних мережах? Що це було?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Якби у твого життя була тематична пісня, яка б вона була?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Хто, на твою думку, душна людина в цій кімнаті і чому?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Оціни себе з 1 до 10, наскільки ти вважаєш себе привабливим.",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Хто твій найганебніший знаменитий кумир?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чи доводилося тобі коли-небудь ходити в туалет у громадському місці без туалетного паперу? Що ти робив(-ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яку фразу для залицяння ти б використав(-ла), якби зустрів свого знаменитого кумира?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Розкажи про найдорожчу річ, яку ти коли-небудь купував(-ла), і чи шкодуєш ти про це.",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Який найдовший період ти не приймав(-ла) душ?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Який найсмішніший розіграш ти коли-небудь влаштовував(-ла) комусь?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чи було у тебе коли-небудь захоплення одним із твоїх вчителів? Якщо так, то хто це був?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "З яким вигаданим персонажем(ігри, фільми, мультики ...) ти хотів(-ла) би одружитися?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Ти коли небудь купався(-лась) голим(-ою) на морі, озері чи в річці?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "В школі некрасива вчителька з агромним тазом оберталась до тебе задницею, що ти робив(-ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яка найдивніша річ, до якої у тебе є емоційна прихильність?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Як ти думаєш, що найдивніше у твоїй родині?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чи брехав(-ла) ти під час цієї гри сьогодні, і ми це пропустили?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Якби ти міг(-ла) помінятися життями з вигаданим персонажем на один день, хто б це був і чому?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Який найдешевший подарунок ти коли-небудь дарував(-ла) комусь?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Який найтриваліший час ти коли-небудь був(-ла) під домашнім арештом і чому?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чи був(-ла) ти коли-небудь у бійках під час навчання у школі?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яка найгірша річ, яку ти коли-небудь зробив(-ла) комусь?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Який твій найганебніший дитячий спогад?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яка найгірша чутка, якій ти вірив(-ла), не знаючи, що вона неправдива?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Який найогидніший жарт ти коли-небудь чув(-ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Що ти би обрав(-ла) ніколи не їсти шоколад чи ніколи не займатися сексом?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Хто остання людина, яку ти хотів(-ла) би бачити без одягу?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яке слово чи фразу ти неправильно розумів(-ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яку пісню ти любиш співати з усіх сил, коли впевнений(-на), що тебе ніхто не чує?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Що тебе лякає, але насправді нема нічого страшного?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Що найганебніше ти коли-небудь шукав(-ла) у Google?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Хотів би ти обійматися з людиною зліва від тебе?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Хотів би ти обійматися з людиною зправа від тебе?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Ти прикидався(-лась), що подобається подарунок? Що це було?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чи був у тебе коли-небудь уявний друг?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "На яке питання ти найбільше боїшся відповісти чесно?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Який найдивніший сон ти коли-небудь бачив(-ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Розкажи нам про свою найгіршу історію п’янки!",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Що тобі подобається, а більшість людей не люблять?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Кого б ти вибрав(-ла), якби тобі довелося вбити трьох людей у світі?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чи коли-небудь ти відправляв(-ла) повідомлення не тій людині, і що це було?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Хто в цій кімнаті, на твою думку, найкраще цілується?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "У тебе була ситуація коли хотів(-ла) зробити тихий пук, а вийшло БРбрХШшчБдрвПВв ...",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Тобі подобаються красиві тіла твоєї статті?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Що незаконного ти коли-небудь робив(-ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Якби ти міг(-ла) уникнути покарання за злочин, що б це було?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Який найсильніший наркотик ти б коли-небудь спробував(-ла)?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Як звали твою першу симпатію?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Хто найнесподіваніша людина, яка коли-небудь писала тобі у приватні повідомлення?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Як би ти вижив(-ла) під час зомбі-апокаліпсису?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Якщо б ти мусив(-ла) відмовитися від одного зі своїх чуттів, яке б це було?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Одна річ, яку ти б ніколи не зробив(-ла), навіть якщо б тобі запропонували більше грошей, ніж ти можеш уявити",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Що ти зробив(-ла), і сподіваєшся, що твої батьки ніколи не дізнаються?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Який твій улюблений предмет був(є) в школі і чому?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Хто твій улюблений мультяшний персонаж і чому?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Де б ти хотів(-ла) провести літні канікули/відпустку?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Хто твій улюблений вчитель?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Який твій улюблений колір?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Хто твій улюблений персонаж Disney?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Що б ти зробив(-ла) з $1,000?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чи коли-небудь ти списував(-ла) на тесті?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Коли ти востаннє прибирав(-ла) свою кімнату?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чи коли-небудь плакав(-ла) під час перегляду фільму? Якщо так, то який?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чи хочеш ти стати відомим(-ою), коли виростеш? Чому так або чому ні?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Що тебе може розмішити?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "З ким ти проводиш більшість свого часу?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чи дивився(-лась) ти коли-небудь фільм або телешоу, яке тобі не дозволяли дивитися?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Які найсмішніші слова ти знаєш?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чи коли-небудь ламав(-ла) щось?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чи хотів(-ла) би ти жити в світі магії або супергероїв?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Які дні народження членів твоєї родини?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чи є у тебе таємна шкільна симпатія? Якщо так, чи є ця особа в цій кімнаті?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "З усіх гравців, у кого найкрасивіші очі?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Чи коли-небудь ти стежив(-ла) за кимось у соціальних мережах? Хто це був?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яким був твій перший поцілунок?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Що б ти зробив, якби знав(-ла), що за це не буде наслідків?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Хто найкрасивіша особа в кімнаті?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Кого б ти обрав(-ла), якби мусив(-ла) поцілувати одну особу в цій кімнаті?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Яка, на твою думку, найбільша проблема, з якою стикаються підлітки сьогодні?",
+    "custom": ""
+  },
+  {
+    "levels": "Expert",
+    "truthOrAction": "Truth",
+    "question": "Що, на твою думку, буде твоїм найбільшим досягненням у житті?",
     "custom": ""
   }
 ]
