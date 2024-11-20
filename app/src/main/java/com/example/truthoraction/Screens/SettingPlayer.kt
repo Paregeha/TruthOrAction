@@ -35,8 +35,10 @@ import androidx.compose.ui.AbsoluteAlignment
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.paint
+import androidx.compose.ui.graphics.BlendMode
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.res.colorResource
@@ -98,11 +100,6 @@ fun SettingPlayer(navController: NavHostController, playerViewModel: PlayerViewM
                         playerViewModel.addPlayer(Players(id = 0, name, gender, icon))
                         showDialog = false
                     },
-                    dataIcons = listOf(
-                        R.drawable.beautygirl1_1,
-                        R.drawable.beautygirl1_2,
-                        R.drawable.beautygirl1_3
-                    )
                 )
             }
 
@@ -248,11 +245,23 @@ fun SettingPlayer(navController: NavHostController, playerViewModel: PlayerViewM
                 }
 
                 IconButton(
-                    onClick = { navController.navigate("SettingQuestion") },
+                    onClick = {
+                        if (players.size >= 2) {
+                            navController.navigate("SettingQuestion")
+                        }
+                              },
                     modifier = Modifier.size(150.dp, 100.dp)
                 ) {
                     Image(
                         painter = painterResource(id = R.drawable.cancel_confirm),
+                        colorFilter = if (players.size < 2) {
+                            ColorFilter.tint(
+                                color = Color.Gray,
+                                blendMode = BlendMode.Saturation // Змінює на відтінки сірого
+                            )
+                        } else {
+                            null
+                        },
                         contentDescription = "Confirm",
                         modifier = Modifier.padding(5.dp)
                     )

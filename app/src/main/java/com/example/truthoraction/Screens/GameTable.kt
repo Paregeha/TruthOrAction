@@ -39,6 +39,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
@@ -84,6 +85,8 @@ fun GameTable(
         .collectAsState(initial = emptyList())
 
     var isQuestionTruthOrActionVisible by remember { mutableStateOf(false) }
+
+    var isTruthOrActionText by remember { mutableStateOf(false) }
 
     var question by remember { mutableStateOf("") }
 
@@ -139,6 +142,30 @@ fun GameTable(
                     horizontalAlignment = Alignment.CenterHorizontally,
                     verticalArrangement = Arrangement.Top
                 ) {
+                    if (isTruthOrActionText){
+                        Text(
+                            text = players[selectedPlayerIndex].name,
+                            style = TextStyle(
+                                fontSize = (screenHeight.value * 0.03).sp, // 2.5% від висоти екрана для розміру шрифту
+                                fontFamily = FontFamily(Font(R.font.ibarra_real_nova_variable_font_wght)),
+                                color = colorResource(id = R.color.button)
+                            ),
+                        )
+                        Text(
+                            text = "Правда чи Дія?",
+                            style = TextStyle(
+                                fontSize = (screenHeight.value * 0.03).sp, // 2.5% від висоти екрана для розміру шрифту
+                                fontFamily = FontFamily(Font(R.font.ibarra_real_nova_variable_font_wght)),
+                                color = colorResource(id = R.color.button)
+                            ),
+                            textAlign = TextAlign.Center, // Вирівнювання по ширині
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .wrapContentWidth(Alignment.CenterHorizontally)
+                                .padding(horizontal = screenWidth * 0.2f), // Відступи з боків
+                        )
+
+                    }
                     if (isQuestionTruthOrActionVisible) {
                         Text(
                             text = players[selectedPlayerIndex].name,
@@ -151,14 +178,15 @@ fun GameTable(
                         Text(
                             text = question,
                             style = TextStyle(
-                                fontSize = (screenHeight.value * 0.03).sp, // 2.5% від висоти екрана для розміру шрифту
+                                fontSize = (screenHeight.value * 0.028).sp, // 2.5% від висоти екрана для розміру шрифту
                                 fontFamily = FontFamily(Font(R.font.ibarra_real_nova_variable_font_wght)),
                                 color = colorResource(id = R.color.button)
                             ),
+                            textAlign = TextAlign.Justify, // Вирівнювання по ширині
                             modifier = Modifier
                                 .fillMaxWidth()
                                 .wrapContentWidth(Alignment.CenterHorizontally)
-                                .padding(horizontal = 16.dp), // Відступи з боків
+                                .padding(horizontal = screenWidth * 0.2f), // Відступи з боків
                         )
                     }
 
@@ -186,6 +214,7 @@ fun GameTable(
                                     isTruthOrActionVisible = true
                                 }
                                 isButtonVisible = false // Приховуємо кнопку після натискання
+                                isTruthOrActionText = true
                             },
                             modifier = Modifier.size(150.dp)
                         ) {
@@ -243,6 +272,7 @@ fun GameTable(
                                 }
                                 isQuestionTruthOrActionVisible = false
                                 isButtonNextVisible = false
+                                isTruthOrActionText = true
                             },
                             modifier = Modifier.size(140.dp, 90.dp)
                         ) {
@@ -288,6 +318,7 @@ fun GameTable(
                                 }
                                 isDone = false
                                 isQuestionTruthOrActionVisible = false
+                                isTruthOrActionText = true
 
                             },
                             modifier = Modifier.size(140.dp, 90.dp)
@@ -403,6 +434,7 @@ fun GameTable(
                                 isQuestionTruthOrActionVisible = true
                                 isButtonNextVisible = true
                                 isTruthOrActionVisible = false
+                                isTruthOrActionText = false
 
                             },
                             modifier = Modifier.size(140.dp, 90.dp)
@@ -442,6 +474,7 @@ fun GameTable(
                                 isQuestionTruthOrActionVisible = true
                                 isTruthOrActionVisible = false
                                 isRefusePerform = true
+                                isTruthOrActionText = false
                             },
                             modifier = Modifier.size(140.dp, 90.dp)
                         ) {

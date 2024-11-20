@@ -20,6 +20,7 @@ import androidx.compose.material3.TabRowDefaults
 import androidx.compose.material3.TabRowDefaults.tabIndicatorOffset
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -27,7 +28,9 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.paint
+import androidx.compose.ui.graphics.BlendMode
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
@@ -48,6 +51,19 @@ import com.example.truthoraction.R
 fun SettingQuestion(navController: NavHostController,viewModel: QuestionsViewModel) {
     val tabs = listOf("Levels", "Custom")
     var selectedTabIndex by remember { mutableStateOf(0) }
+
+    var colorFilter by remember { mutableStateOf<ColorFilter?>(null) }
+
+    LaunchedEffect(viewModel.selectedLevel) {
+        colorFilter = if (viewModel.selectedLevel == null) {
+            ColorFilter.tint(
+                color = Color.Gray,
+                blendMode = BlendMode.Saturation
+            )
+        } else {
+            null
+        }
+    }
 
     Box(
         modifier = Modifier
@@ -132,8 +148,11 @@ fun SettingQuestion(navController: NavHostController,viewModel: QuestionsViewMod
                     )
                 }
                 IconButton(
-                    onClick = { navController.navigate("GameTable") },
-                    modifier = Modifier.size(150.dp, 100.dp)
+                    onClick = {
+                        if (viewModel.selectedLevel != null)
+                        navController.navigate("GameTable")
+                              },
+                    modifier = Modifier.size(150.dp, 100.dp),
                 ) {
                     Image(
                         painter = painterResource(id = R.drawable.cancel_confirm),

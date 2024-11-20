@@ -3,6 +3,7 @@
 package com.example.truthoraction.Screens
 
 import android.annotation.SuppressLint
+import androidx.compose.animation.animateContentSize
 import androidx.compose.animation.core.animateDpAsState
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.border
@@ -12,6 +13,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -55,35 +57,52 @@ import com.example.truthoraction.R
 fun SettingPlayerDialog(
     onDismiss: () -> Unit,
     onConfirm: (String, String, Int) -> Unit, // Змінили тип selectedIcon на Int для ID ресурсу
-    dataIcons: List<Int>
 ) {
     var name by remember { mutableStateOf("") }
-    var selectedGender by remember { mutableStateOf("") } // За замовчуванням обрано Male
+    var selectedGender by remember { mutableStateOf<String?>(null) } // За замовчуванням обрано Male
     var selectedIcon by remember { mutableStateOf<Int?>(null) } // Зберігаємо ID вибраної іконки
 
 
     val dataIconsFemale = remember {
         mutableStateListOf(
-            R.drawable.beautygirl1_1,
-            R.drawable.beautygirl1_2,
-            R.drawable.beautygirl1_3
+            R.drawable.woman_icon1,
+            R.drawable.woman_icon2,
+            R.drawable.woman_icon3,
+            R.drawable.woman_icon4,
+            R.drawable.woman_icon5,
+            R.drawable.woman_icon6,
+            R.drawable.woman_icon7,
+            R.drawable.woman_icon8,
+            R.drawable.woman_icon9,
+            R.drawable.woman_icon10,
+            R.drawable.woman_icon11,
+            R.drawable.woman_icon12,
+            R.drawable.woman_icon13,
         )
     }
     val dataIconsMale = remember {
         mutableStateListOf(
-            R.drawable.beautygirl1_1,
+            R.drawable.man_icon1,
+            R.drawable.man_icon2,
+            R.drawable.man_icon3,
+            R.drawable.man_icon4,
+            R.drawable.man_icon5,
+            R.drawable.man_icon6,
+            R.drawable.man_icon7,
+            R.drawable.man_icon8,
+            R.drawable.man_icon9,
+            R.drawable.man_icon10,
+            R.drawable.man_icon11,
         )
     }
 
     Dialog(
-        onDismissRequest = onDismiss
+        onDismissRequest = onDismiss,
     ) {
         // Box для кастомного фону та оформлення
         Box(
             modifier = Modifier
                 .fillMaxWidth()
-//                .clip(RoundedCornerShape(16.dp)) // Заокруглені кути
-//                .background(Color.Transparent) // Прозорий фон
                 .border(
                     width = 1.dp,
                     color = Color.White,
@@ -93,12 +112,16 @@ fun SettingPlayerDialog(
 //                .padding(24.dp) // Збільшені внутрішні відступи для простору
         ) {
             Column(
-                verticalArrangement = Arrangement.spacedBy(12.dp) // Відступи між компонентами
+                verticalArrangement = Arrangement.spacedBy(12.dp), // Відступи між компонентами
             ) {
                 // Поле для введення імені
                 OutlinedTextField(
                     value = name,
-                    onValueChange = { name = it },
+                    onValueChange = {
+                        if (it.length <= 12) {
+                            name = it
+                        }
+                    },
                     label = {
                         Text(
                             "Ім'я", style = TextStyle(
@@ -144,28 +167,31 @@ fun SettingPlayerDialog(
                 ) {
                     GenderRadioButton(
                         label = "Male",
-                        selectedGender = selectedGender,
+                        selectedGender = selectedGender.toString(),
                         onSelect = { selectedGender = "Male" }
                     )
                     GenderRadioButton(
                         label = "Female",
-                        selectedGender = selectedGender,
+                        selectedGender = selectedGender.toString(),
                         onSelect = { selectedGender = "Female" }
                     )
                 }
 
                 // Вибір іконки на основі вибраної статі
-                LazyRow(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                ) {
-                    val icons = if (selectedGender == "Female") dataIconsFemale else dataIconsMale
-                    items(icons) { iconId ->
-                        IconSelectable(
-                            iconId = iconId,
-                            isSelected = selectedIcon == iconId,
-                            onClick = { selectedIcon = iconId }
-                        )
+                if (selectedGender != null) {
+                    LazyRow(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                    ) {
+                        val icons =
+                            if (selectedGender == "Female") dataIconsFemale else dataIconsMale
+                        items(icons) { iconId ->
+                            IconSelectable(
+                                iconId = iconId,
+                                isSelected = selectedIcon == iconId,
+                                onClick = { selectedIcon = iconId }
+                            )
+                        }
                     }
                 }
 
@@ -201,7 +227,7 @@ fun SettingPlayerDialog(
                     IconButton(
                         onClick = {
                             if (name.isNotBlank() && selectedIcon != null) {
-                                onConfirm(name, selectedGender, selectedIcon!!)
+                                onConfirm(name, selectedGender.toString(), selectedIcon!!)
                             }
                         },
                         modifier = Modifier.size(120.dp, 70.dp)
@@ -276,21 +302,4 @@ fun IconSelectable(
             modifier = Modifier.size(iconSize - 8.dp) // Зображення трохи менше за Box
         )
     }
-}
-
-@Preview(showBackground = true)
-@Composable
-fun SettingPlayerDialogPreview() {
-    SettingPlayerDialog(
-        onDismiss = { false },
-        onConfirm = { name, gender, icon ->
-            // Тут ви можете обробити підтвердження (наприклад, зберегти дані або показати повідомлення)
-            println("Name: $name, Gender: $gender, Icon: $icon")
-        },
-        dataIcons = listOf(
-            R.drawable.beautygirl1_1,
-            R.drawable.beautygirl1_2,
-            R.drawable.beautygirl1_3
-        )
-    )
 }
